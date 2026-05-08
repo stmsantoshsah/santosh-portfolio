@@ -24,15 +24,15 @@ const About = () => {
           <div className="text-side">
             <h3 className="section-title">About me</h3>
             <h2 className="section-subtitle">
-              A dedicated Front-end Developer <br /> based in Chandigarh, India📍
+              A Senior Software Engineer <br /> based in Chandigarh, India📍
             </h2>
 
             <p>
-              As a Junior Front-End Developer, I have strong skills in{" "}
+              As a **Senior Software Engineer** with **5 years of experience**, I have strong skills in{" "}
               {skills.map((skill, index) => (
                 <strong key={index}>{(index ? ", " : "") + skill}</strong>
               ))}.
-              I enjoy turning design ideas into interactive, smooth websites that work well across all devices.
+              I specialize in building scalable enterprise SaaS platforms and high-performance AI intelligence pipelines.
             </p>
             <p>
               My goal is to write efficient, maintainable code and use the latest technologies to build fast,

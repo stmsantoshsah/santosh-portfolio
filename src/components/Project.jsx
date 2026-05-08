@@ -7,6 +7,28 @@ import deskr from "../assets/images/deskr.webp"
 import citagenix from "../assets/images/citagenix.webp"
 
 const projectsData = [
+  {
+    id: 101,
+    title: "Capture-411",
+    date: "2024 - Present",
+    description:
+      "An AI-Powered GovCon Intelligence Platform. I engineered a multi-pass AI agentic pipeline using AWS Bedrock (Claude 3.5) to parse unstructured solicitation documents, reducing analysis time from 2 hours to 3 minutes with 92% accuracy.",
+    stack: ["Next.js", "FastAPI", "AWS Bedrock", "PostgreSQL", "Turborepo"],
+    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
+    liveLink: "https://www.capture411.com/home",
+    icon: "🤖",
+  },
+  {
+    id: 102,
+    title: "Power Dental Studio",
+    date: "2024",
+    description:
+      "A comprehensive B2B Dental SaaS ecosystem. I integrated the QuickBooks Online API to automate a 20-hour/week billing process and developed an in-browser 3D STL viewer using Three.js and Web Workers for digital dental scans.",
+    stack: ["Next.js", "NestJS", "Three.js", "QuickBooks API", "PostgreSQL"],
+    image: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&q=80&w=800",
+    liveLink: "https://powerdentalstudio.com/",
+    icon: "🦷",
+  },
 
   {
     id: 1,
@@ -72,8 +94,13 @@ const Projects = () => {
         <div className="project-content">
           <h3 className="section-title">Portfolio</h3>
           <h2 className="section-subtitle">
-            Each project is a unique piece of development 🧩
+            A Senior Software Engineer <br /> based in Chandigarh, India📍
           </h2>
+
+          <p>
+            As a <strong>Senior Software Engineer</strong> with <strong>5 years of experience</strong>, 
+            I specialize in building scalable enterprise SaaS platforms and high-performance AI intelligence pipelines.
+          </p>
           <div className="projects-grid">
             {projectsData.map((project, index) => (
               <div

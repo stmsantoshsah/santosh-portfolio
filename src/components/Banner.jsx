@@ -14,12 +14,12 @@ const Banner = () => {
           <div className="hero-main spacing_bottom">
             <div className="hero-text">
               <h1>
-                <span>Front-End React Developer</span>{" "}
+                <span>Senior Software Engineer</span>{" "}
                 <img className="waving-hand" src={wavingImage} alt="waving_hand" />
               </h1>
 
               <p>
-                Hi, I'm Santosh Sah. A passionate Front-end React Developer
+                Hi, I'm Santosh Sah. A results-driven Senior Software Engineer
                 based in Chandigarh, India. 📍
               </p>
               <span className="social_icon">
