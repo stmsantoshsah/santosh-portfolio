@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import "../scss/Global.scss";
 import l4wHomeImage from "../assets/images/Licence-4-Work.png";

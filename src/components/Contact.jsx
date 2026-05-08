@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import phone from '../assets/images/phone.svg'
 import "../scss/Global.scss";

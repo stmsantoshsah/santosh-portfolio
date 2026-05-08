@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import wavingImage from "../assets/images/waving.png";
 import htmlImage from "../assets/images/html.png";

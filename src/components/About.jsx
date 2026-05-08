@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import "../scss/Global.scss";
 import workingImage from "../assets/images/working-emoji.png";
